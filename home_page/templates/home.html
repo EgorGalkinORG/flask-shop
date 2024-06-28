@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Home
+{% endblock %}
+
+
+{% block head %}
+    <link rel="stylesheet" href="{{ url_for('home.static', filename = '/css/home.css' ) }}">
+{% endblock %}
+
+
+{% block content %}
+    {% if not is_auth %}
+    <div class="reg-log">
+        <a href="/registration/">REGISTRATION</a>
+        <a href="/login/">AUTHORIZATION</a>
+    </div>
+    <h1>
+        Home Page
+    </h1>
+
+    {% else %}
+        <div class="already-auth">
+            <div class="pages">
+                <a href="/" class="on-page">HOME</a>
+                <a href="/shop/">SHOP</a>
+                <a href="/cart/">CART</a>
+                <a href="/contacts/">CONTACTS</a>
+                {% if is_admin %}
+                    <a href="/admin/">ADMIN</a>
+                {% endif %}
+            </div> 
+            <h2>{{user}}</h2>
+        </div>
+
+        <h1>
+            Home Page
+        </h1>
+    {% endif %}
+{% endblock %}

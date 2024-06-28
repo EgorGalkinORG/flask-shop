@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Shop
+{% endblock %}
+
+{% block head %}
+    <script src="{{ url_for('shop.static', filename='js/save_cookies.js') }}" defer></script>
+    <link rel="stylesheet" href="{{ url_for('shop.static', filename= '/css/shop.css') }}">
+{% endblock %}
+
+{% block content %}
+    <div class="already-auth">
+        <div class="pages">
+            <a href="/">HOME</a>
+            <a href="/shop/" class="on-page">SHOP</a>
+            <a href="/cart/">CART</a>
+            <a href="/contacts/">CONTACTS</a>
+            {% if is_admin %}
+                <a href="/admin/">ADMIN</a>
+            {% endif %}
+            {% if valuetf %}
+                <div class="cart-value">
+                    <h3>{{value1}}</h3>
+                </div>
+            {% endif %}
+        </div> 
+        <h2>{{user}}</h2>
+    </div>
+    <div class="products">
+        
+            {% for product in products %}
+                <div class="product">
+                        
+                    <img src="{{ url_for('shop.static', filename= '/imgs/' + product.name + '.png') }}">
+                    <div class="description">                        
+                        <p class="title">{{ product.name }}</p>
+                        <p class="cost-original">{{ product.price }} грн</p>
+                        <p class="discount">Знижка {{ product.discount }}%</p>
+                        <p class="total-cost">{{ product.price - int(product.price / 100 * product.discount) }} грн</p>
+                        <form method="post">
+                            <button type="submit" id="{{product.id}}" class="buy">КУПИТИ</button>
+                        </form>
+                        <p class="capacity">ЄМНІСТЬ:</p>                           
+                        <div class="options-capacity">
+                            <p class="selected1">{{product.capacity1}}</p>
+                            <p class="not-selected1">{{product.capacity2}}</p>
+                            <p class="not-selected12">{{product.capacity3}}</p>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+    </div>
+
+
+{% endblock %}
+

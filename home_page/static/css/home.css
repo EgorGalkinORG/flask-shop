@@ -1,0 +1,196 @@
+h1{
+    /* Home page */
+    /* display: fl; */
+    top: 33%;
+    left: 34%;
+    right: 25%;
+    width: 831px;
+    height: 165px;
+
+    position: absolute;
+    /* display: flex; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 121px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 0;
+
+}
+
+.reg-log{
+    /* Frame 1 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* padding: 4px 122px; */
+    gap: 16px;
+
+    position: absolute;
+    width: 429px;
+    height: 41px;
+    right: 1%;
+    top: 15px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;     
+
+}
+
+a{
+    /* Registration */
+
+    width: 190px;
+    height: 33px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-decoration-line: none;
+    text-transform: uppercase;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.already-auth{
+    /* Menu */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 39px;
+    gap: 387px;
+
+    position: absolute;
+    width: 90%;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
+
+}
+
+h2{
+    /* mykola Skrypnyk */
+
+    width: 200px;
+    height: 44px;
+
+    position: absolute;
+
+    right: -2%;
+    
+    
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-transform: uppercase;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.pages{
+/* Menu Lable */
+
+    /* Auto layout */
+    position: absolute;
+
+    left: 5%;
+    
+    justify-content: left;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0px;
+    gap: 10px;
+
+    width: 430px;
+    height: 44px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.on-page{
+    
+    /* Registration */
+
+    width: 190px;
+    height: 33px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}

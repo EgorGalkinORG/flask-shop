@@ -1,0 +1,830 @@
+h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+}
+
+a{
+    /* Registration */
+
+    width: 190px;
+    height: 33px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.already-auth{
+    /* Menu */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 39px;
+    gap: 387px;
+
+    position: absolute;
+    width: 90%;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
+
+}
+
+h2{
+    /* mykola Skrypnyk */
+
+    width: 200px;
+    height: 44px;
+
+    position: absolute;
+
+    right: -2%;
+    
+    
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-transform: uppercase;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+.pages{
+/* Menu Lable */
+
+    /* Auto layout */
+    position: absolute;
+
+    left: 5%;
+    
+    justify-content: left;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0px;
+    gap: 10px;
+
+    width: 430px;
+    height: 44px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.basket-menu{
+    /* Content Products */
+
+    /* Auto layout */
+    position: absolute;
+    margin-top: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 85px;
+    gap: 30px;
+
+    width: 90%;
+    height: 10%;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
+
+}
+.basket-of-product{
+    /* Frame 10 */
+
+    /* Auto layout */
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: start; */
+    align-items: flex-start;
+    padding: 10px;
+    gap: 23px;
+
+    width: 850px;
+    height: 1007px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.product-in-basket{
+   /* Frame 12 */
+
+    box-sizing: border-box;
+    margin-top: 15px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 120px;
+
+    width: 1020px;
+    height: 200px;
+
+    border-right: 3px solid #000000;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+img{
+    /* 2529964 2 */
+
+    width: 172px;
+    height: 200px;
+
+    /* background: url(2529964.jpg); */
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.price-of-product{
+    /* 49 999 грн */
+
+    width: 160px;
+    height: 97px;
+    /* right: 50%;
+    position: absolute; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+
+}
+.counter-of-product{
+    /* Frame 13 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+
+    width: 95px;
+    height: 150px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+}
+.count-of-product{
+    /* Frame 15 */
+
+    /* Auto layout */
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+
+    width: 41px;
+    height: 41px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    /* 1 */
+
+    /* width: 29px;
+    height: 28px; */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+
+
+
+
+}
+.minus-count{
+    /* Frame 14 */
+    /* - */
+    /* 
+    width: 29px;
+    height: 29px; */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+
+    margin-top: 6px;
+    margin-right: 30px;
+    
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    gap: 10px;
+
+    width: 41px;
+    height: 41px;
+
+    background: #EFCB4A;
+    border: 1px solid #000000;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.plus-count{
+    /* Frame 14 */
+    /* - */
+    /* 
+    width: 29px;
+    height: 29px; */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+
+    margin-top: 6px;
+    margin-right: 5px;
+    margin-left: 40px;
+    
+
+    /* box-sizing: border-box; */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    gap: 10px;
+
+    width: 41px;
+    height: 41px;
+
+    background: #EFCB4A;
+    border: 1px solid #000000;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.cart-value1{
+    /* Ellipse 1 */
+
+    box-sizing: border-box;
+    position: absolute;
+    display: flex;
+    width: 35px;    
+    height: 35px;
+    left: 504.5px;
+    top: 13px;
+    border-radius: 50px;
+    background: #EFCB4A;
+    border: 1px solid #000000;
+    /* justify-items: center; */
+    /* Inside auto layout */
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    z-index: 4;
+
+}
+h3{
+   /* margin: 14%; */
+   margin-left: 29%;
+   margin-top: 50%;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 24px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   text-transform: uppercase;
+
+   color: #000000;
+
+
+   /* Inside auto layout */
+   flex: none;
+   order: 5;
+   flex-grow: 0;
+   z-index: 5; 
+}
+.order{
+    /* Frame 11 */
+
+    position: absolute;
+    right: 10%;
+    top: 14%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* padding: 24px 23px; */
+    gap: 5px;
+
+    width: 420px;
+    height: 326px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+.continie-order{
+    /* Frame 17 *//* Перейти до оформлення */
+
+    width: 318px;
+    height: 73px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+
+    width: 374px;
+    height: 104px;
+
+    background: #EFCB4A;
+    border: 1px solid #000000;
+    border-radius: 15px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.original-price{
+    /* position: absolute; */
+    /* Frame 18 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 26px;
+
+    width: 377px;
+    height: 53px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+.discount{
+    /* Frame 19 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+
+    width: 377px;
+    height: 53px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+}
+.total-price{
+    /* Frame 20 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+
+    width: 377px;
+    height: 53px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+
+}
+.original-count{
+/* 4-и товари на суму */
+
+    width: 175px;
+    height: 22px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.original-price-p{
+/* 133 997 грн */
+
+    width: 156px;
+    height: 44px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-transform: uppercase;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.discount-p1{
+    /* Знижка */
+
+    width: 191px;
+    height: 44px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.discount-p{
+    /* 25 459 грн */
+
+    width: 156px;
+    height: 44px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-transform: uppercase;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.ttl-prc-p1{
+
+    width: 191px;
+    height: 44px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+    color: #000000;
+
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.total-price-p{
+    /* 108 538 грн */
+
+    width: 156px;
+    height: 44px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-transform: uppercase;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}.modal-window{
+    position: fixed;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.589);
+    z-index: 1000;
+}
+.modal-form{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 700px;
+    background-color: rgb(255, 255, 255);   
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px; 
+    /* Frame 37 */
+}
+.modal-form *{
+    margin-top: 50px;
+}
+.modal-form input{
+    /* Frame 37 */
+
+    position: relative;
+    width: 450px;
+    height: 74px;
+    /* left: 125px; */
+    top: 30.5px; 
+
+    border: 2px solid #000000;
+    border-radius: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+.title-order{
+    position: absolute;
+    top: -20px;
+    margin-left: 7%;
+    /* left: 100px; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+}
+.modal-form p{
+    /* Change text: */
+
+    position: absolute;
+    /* width: 446px;
+    height: 30px; */
+    left: 110px;
+    
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #000000;
+
+
+}
+.modal-form button{
+    /* SEND */
+    position: relative;
+
+    width: 446px;
+    height: 51px;
+    background: none;
+    border: none;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+
+    color: #000000;
+
+
+
+}
+
+
+.modal-form textarea{   
+    /* Frame 37 */
+
+    position: relative;
+    width: 450px;
+    height: 74px;
+    /* left: 125px; */
+    top: 30.5px; 
+
+    border: 2px solid #000000;
+    border-radius: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}

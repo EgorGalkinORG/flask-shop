@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "Inter";
+    src: url("Inter-Regular.ot  f");
+}
+form{
+    /* Authorization */
+
+    box-sizing: border-box;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 23px;
+
+    width: 448px;
+    height: 420px;
+
+    border: 3px solid #000000;
+    border-radius: 25px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
+
+}
+
+input{
+    margin-top: auto;
+    margin-bottom: auto;
+    /* Input Login */
+
+    box-sizing: border-box;
+    
+    /* position: absolute; */
+    width: 370px;
+    height: 56px;
+    /* left: 40px;
+    top: 59px; */
+    
+    border: 2px solid #000000;
+    border-radius: 10px;
+    
+}
+
+p{
+    /* Login */
+
+    /* position: absolute; */
+    width: 370px;
+    height: 27px;
+    /* left: 40px;
+    top: 22px; */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+
+
+}
+
+button{
+        /* Authorization */
+/* Button SEND */
+    font-family: "Inter";
+    font-size: large;
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+
+    width: 204px;
+    height: 60px;
+
+    border: 2px solid #000000;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+}
+a{
+    /* Authorization */
+
+    position: absolute;
+    width: 1400px;
+    height: 33px;
+    left: 88%;
+    top: 9px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 0;
+
+}
